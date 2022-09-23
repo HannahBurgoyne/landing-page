@@ -1,0 +1,24 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+ color: #E5E7EB;
+ text-decoration: none;
+ font-size: 18px;
+}
