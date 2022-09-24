@@ -12,6 +12,44 @@ body {
     padding-right: 10%;
 }
 
+.subheader {
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 20px;
+    
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: small;
+    font-weight: 600;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -33,3 +71,4 @@ a {
  font-size: 18px;
  padding: 8px;
 }
+
