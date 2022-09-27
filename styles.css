@@ -38,14 +38,18 @@ body {
 
 .image-container {
     display: flex;
-    flex-direction: row;
-    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:max-content;
+    
+    
 }
 
 
 .images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .one, .two, .three, .four {
