@@ -85,6 +85,7 @@ body {
     justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 40px;
     
 }
 
@@ -94,6 +95,14 @@ body {
     font-weight: light;
     color: #1F2937;
     padding: 10% 10% 10px 10%;
+}
+
+.quote-credit {
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10% 10px 10%;
 }
 
 h1 {
