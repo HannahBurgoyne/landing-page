@@ -105,6 +105,33 @@ body {
     padding: 0 10% 10px 10%;
 }
 
+.subfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.call-to-action {
+    background: #3882F6;
+    width: 700px;
+    height: 100px;
+    border: #3882F6 2px solid;
+    border-radius: 10px;
+
+}
+
+.action-header {
+    color: white;
+    font-weight: bold;
+
+}
+
+.action-body {
+    color: white;
+    font-size: 14px;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
