@@ -27,7 +27,8 @@ body {
 .body-container {
     display: flex;
     flex-direction: column;
-    
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .subheader-container {
@@ -38,25 +39,20 @@ body {
 
 .image-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width:max-content;
-    
+    flex-direction: column;  
     
 }
 
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .one, .two, .three, .four {
     border: green solid 7px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 0;
@@ -67,8 +63,8 @@ body {
 .image-box {
     border: #3882F6 2px solid;
     border-radius: 10px;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 10px;
 }
 
@@ -76,7 +72,8 @@ body {
     display: flex;
     justify-content: center;
     align-self: flex-start;
-    width: 80px;
+    width: 150px;
+    font-size: 14px;
 
 }
 
