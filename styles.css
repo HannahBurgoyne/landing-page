@@ -118,7 +118,17 @@ body {
     height: 100px;
     border: #3882F6 2px solid;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px 5px 40px;
 
+
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .action-header {
@@ -160,6 +170,10 @@ img {
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
 
+}
+
+.button.action {
+    border: white 2px solid;
 }
 
 .logo {
